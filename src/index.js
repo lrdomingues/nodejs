@@ -14,6 +14,7 @@ mongoose.connect(mongoConnection, {
 }, () => console.log("Connected to database"))
 
 app.use(cors())
+app.options('*', cors())
 app.use(express.json())
 app.use(router)
 console.log(process.env.PORT)
