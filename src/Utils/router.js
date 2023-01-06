@@ -28,4 +28,6 @@ router.delete('/comments/:comment_id/', AuthMiddleware, CommentController.delete
 router.put('/comments/:comment_id', AuthMiddleware, CommentController.editComment)
 router.get('/report', AuthMiddleware, ReportController.getReport)
 
+router.get('/hello-world', (req,res){ return res.status(200).send({message: "Hello World!"})})
+
 module.exports = router
