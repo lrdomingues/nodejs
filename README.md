@@ -12,7 +12,7 @@ Para subir o sistema e realizar os testes, siga os seguintes passos:
 1. Certifique-se de ter o [NodeJS](https://nodejs.org/en/download/) e o [MongoDB](https://cloud.mongodb.com/v2/63b590ca5accf15e13348be8#/clusters/connect?clusterId=Cluster0) instalados em sua máquina.
 2. Faça o clone do projeto para o seu computador.
 ```
-git clone https://github.com/seu-usuario/nome-do-projeto.git
+git clone https://github.com/lrdomingues/nodejs.git
 ```
 3. Acesse o diretório do projeto pelo terminal e execute o comando **`npm install`** para instalar todas as dependências do projeto.
 ```
