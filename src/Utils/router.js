@@ -28,7 +28,7 @@ router.delete('/comments/:comment_id/', AuthMiddleware, CommentController.delete
 router.put('/comments/:comment_id', AuthMiddleware, CommentController.editComment)
 router.get('/report', AuthMiddleware, ReportController.getReport)
 
-app.get('/hello', (req, res) => {
+router.get('/hello', (req, res) => {
   res.send('Hello World!')
 })
 
